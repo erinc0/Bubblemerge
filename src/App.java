@@ -44,7 +44,7 @@ public static void merge(ArrayList<Integer>array, int start, int middle, int end
         }
     while (i< middle){
         mergedArray.add(array.get(i));
-        j++;
+        i++;
     }
     while (j < end) {
         mergedArray.add(array.get(j));
